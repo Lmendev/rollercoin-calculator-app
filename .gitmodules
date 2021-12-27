@@ -1,0 +1,3 @@
+[submodule "www/vendor/rollercoin-calculator"]
+	path = www/vendor/rollercoin-calculator
+	url = https://github.com/Lmendev/rollercoin-calculator
