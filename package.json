@@ -1,0 +1,33 @@
+{
+  "name": "com.codecimal.rollercoincalculator",
+  "displayName": "RollercoinCalculator",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rollercoin",
+    "calculator",
+    "simulation-game",
+    "best-coins-to-mine",
+    "what-to-mine",
+    "ecosystem:cordova"
+  ],
+  "author": "Codecimal Team",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova": "^11.0.0",
+    "cordova-android": "^10.1.1"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {}
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.codecimal.rollercoincalculator" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Rollercoin Calculator</name>
+    <description>The most accurate and complete Rollercoin calculator Application</description>
+    <icon src="www/img/logo.png" />
+    <author email="admin@codecimal.com" href="https://codecimal.com">
+        Codecimal Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    
+    <hook type="before_prepare" src="scripts/android/appAndroidBeforePrepare.js" />
+</widget>
