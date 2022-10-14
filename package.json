@@ -2,7 +2,7 @@
   "name": "com.codecimal.rollercoincalculator",
   "displayName": "RollercoinCalculator",
   "version": "1.0.4",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "The most accurate and complete Rollercoin calculator.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
