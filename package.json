@@ -1,7 +1,7 @@
 {
   "name": "com.codecimal.rollercoincalculator",
   "displayName": "RollercoinCalculator",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
   "scripts": {
