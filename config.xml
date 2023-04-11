@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.codecimal.rollercoincalculator" version="1.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.codecimal.rollercoincalculator" version="1.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Rollercoin Calculator</name>
   <description>The most accurate and complete Rollercoin calculator Application</description>
-  <author email="admin@codecimal.com" href="https://codecimal.com">&#xD;
-    Codecimal Team&#xD;
+  <author email="admin@codecimal.com" href="https://codecimal.com">
+    Codecimal Team
   </author>
   <icon src="www/img/logo.png"/>
   <content src="index.html"/>
