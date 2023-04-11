@@ -20,6 +20,7 @@
   "author": "Codecimal Team",
   "license": "MIT",
   "devDependencies": {
+    "admob-plus-cordova": "^1.28.0",
     "cordova": "^11.0.0",
     "cordova-android": "^11.0.0",
     "cordova-set-version": "^13.0.1",
@@ -30,7 +31,12 @@
     "platforms": [
       "android"
     ],
-    "plugins": {}
+    "plugins": {
+      "admob-plus-cordova": {
+        "APP_ID_ANDROID": "ca-app-pub-xxx~yyy",
+        "PLAY_SERVICES_VERSION": "20.6.0"
+      }
+    }
   },
   "dependencies": {
     "dotenv": "^10.0.0"
