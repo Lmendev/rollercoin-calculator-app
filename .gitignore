@@ -8,5 +8,9 @@ node_modules/
 /platforms/
 
 # Environment variables
+env/
 .env
 www/env
+
+# Compiled files
+dist/
