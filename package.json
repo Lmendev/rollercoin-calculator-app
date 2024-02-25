@@ -22,8 +22,8 @@
   "license": "MIT",
   "devDependencies": {
     "admob-plus-cordova": "^1.28.0",
-    "cordova": "^11.0.0",
-    "cordova-android": "^11.0.0",
+    "cordova": "^12.0.0",
+    "cordova-android": "^12.0.1",
     "cordova-set-version": "^13.0.1",
     "cp-cli": "^2.0.0",
     "mkdirp": "^1.0.4"
