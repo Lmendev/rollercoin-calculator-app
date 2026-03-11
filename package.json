@@ -1,13 +1,17 @@
 {
   "name": "com.codecimal.rollercoincalculator",
   "displayName": "RollercoinCalculator",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "The most accurate and complete Rollercoin calculator.",
   "main": "index.js",
   "scripts": {
     "android": "cordova run android",
     "android:build-prod": "npm version patch && npx cordova build android --release && jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore env/keystore.keystore platforms/android/app/build/outputs/bundle/release/app-release.aab alias_name && npx mkdirp dist && npx cp-cli platforms/android/app/build/outputs/bundle/release/app-release.aab dist/rollercoin-calculator.aab",
     "version": "cordova-set-version && git add config.xml",
+    "submodule:update": "git submodule update --remote",
+    "submodule:install": "git submodule foreach npm install",
+    "submodule:build": "git submodule foreach npm run build",
+    "submodule:move-dist": "move src/vendor/rollercoin-calculator/dist www/vendor/rollercoin-calculator",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -22,8 +26,8 @@
   "license": "MIT",
   "devDependencies": {
     "admob-plus-cordova": "^1.28.0",
-    "cordova": "^11.0.0",
-    "cordova-android": "^11.0.0",
+    "cordova": "^12.0.0",
+    "cordova-android": "^12.0.1",
     "cordova-set-version": "^13.0.1",
     "cp-cli": "^2.0.0",
     "mkdirp": "^1.0.4"
